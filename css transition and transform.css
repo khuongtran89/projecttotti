@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.animation1 {
+    height: 5px;
+    animation-name: change-color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+}
+@keyframes change-color {
+    from {
+        background:rgb(245, 180, 100);
+    }
+    to {
+        background: rgb(255, 51, 0);
+    }
+}
+.transform {
+    padding: 50px;
+}
+.box {
+    height: 150px;
+    background: tomato;
+}
+.scale {
+    transition: transform 3s, border-radius 6s, background 2s 6s;
+}
+.scale:hover {
+    transform: scale(0.5);
+    border-radius: 50%;
+    background:turquoise;
+    transition:all 2s;
+}
+.skew {
+    transition: all 10s;
+}
+.skew:hover {
+    transform: skew(30deg,30deg) translateY(50px);
+    background-color:thistle;
+    transition: all 3s;
+}
+.rotate {
+    transition: transform 4s ease, border-radius 0.1s 6s linear;
+}
+.rotate:hover {
+    transform: rotate(720deg);
+    border-radius: 100%;
+}
+.translate {
+    transition: all 2s;
+}
+.translate:hover {
+    transform: translate(150px,150px);
+}
+.all {
+    transition: all 2s ease;
+}
+.all:hover {
+    background: turquoise;
+    transform: scale(1.1) skewX(30deg) rotate(60deg) translate(-50px);
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px black;
+}
+.text {
+    background: transparent;
+}
+.text span {
+    font-size: 150px;
+    font-weight: 700;
+    transition: all 1s 2s linear;
+}
+.text span:hover {
+    color: orange;
+    cursor: pointer;
+    transition: all 0.05s linear;
+}
+.orange-0:hover {
+    color: rgb(245, 180, 59) !important;
+}
+.orange-1:hover {
+    color: rgb(240, 147, 41) !important;
+}
+.orange-2:hover {
+    color: rgb(248, 119, 33) !important;
+}
+.orange-3:hover {
+    color: rgb(240, 99, 34) !important;
+}
+.orange-4:hover {
+    color: rgb(246, 92, 20) !important;
+}
+.red-0:hover {
+    color: rgb(248, 73, 19) !important;
+}
+.red-1:hover {
+    color: rgb(245, 65, 20) !important;
+}
+.red-2:hover {
+    color: rgb(240, 53, 28) !important;
+}
+.red-3:hover {
+    color: rgb(243, 48, 22) !important;
+}
+.red-4:hover {
+    color: rgb(241, 24, 24) !important;
+}
+.red-5:hover {
+    color: rgb(255, 0, 0) !important;
+}

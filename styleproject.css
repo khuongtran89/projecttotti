@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    background: rgb(31, 30, 30);
+}
+header {
+    padding-top: 20px;
+    width: 100%;
+}
+.logo img {
+    width: 160px;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+.menu li {
+    margin-left: 40px;
+}
+.menu li a {
+    font-size: 18px;
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: 400;
+}
+.menu li a:hover {
+    font-weight: 700;
+    color:rgb(246, 89, 27);
+}
+.active {
+    font-weight: 700 !important;
+}
+
+.content-banner {
+    width: 100%;
+}
+.img-banner img {
+    width: 693px;
+}
+
+.section-headbox {
+    width: 100%;
+    height: 130px;
+    background: linear-gradient(208.18deg, rgb(240, 125, 80) 9.05%, rgb(246, 89, 27) 76.74%);
+    color: whitesmoke;
+    display: flex;
+}
+.city-img img {
+    width: 100%;
+}
+.city {
+    background: url("./png/element.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.feature img {
+    width: 100%;
+}
+
+.nav-slider {
+    display: flex;
+    justify-content:space-around;
+}
+.slider-left {
+    color:white;
+    text-decoration: none;
+    font-size: 32px;
+}
+.slider-right {
+    color: rgb(246, 89, 27);
+    text-decoration: none;
+    font-size: 32px;
+}
+.bullet {
+    list-style: none;
+    display: flex;
+    align-items:center;
+}
+.bullet li {
+    margin: 0 9px;
+}
+.bullet li a {
+    display: block;
+    background: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.active-bullet {
+    background: rgb(246, 89, 27) !important;
+}
+.bg-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+footer {
+    background: linear-gradient(208.18deg, rgb(240, 125, 80) 9.05%, rgb(246, 89, 27) 76.74%);
+    height: 400px; 
+    position: relative;
+}
+.footer-logo img {
+    width: 150px;
+}
+
+.menu-footer ul {
+    list-style: none;
+    display: flex;
+}
+.menu-footer li {
+    margin-left: 40px;
+}
+.menu-footer li a {
+    font-size: 18px;
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: 400;
+}
+.menu-footer li a:hover {
+    font-weight: 700;
+    color:rgb(41, 39, 39);
+}
+.active-menu-footer {
+    font-weight: 700 !important;
+}
